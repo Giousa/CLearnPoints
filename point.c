@@ -48,3 +48,11 @@ void bubble_normal_sort_test() {
     }
     printf("\n");
 }
+
+void bubble_normal_sort_p(int *arr, int len){
+    
+}
+
+void bubble_normal_sort_p_test(){
+
+}
