@@ -8,6 +8,7 @@
 void point_move();
 
 void bubble_normal_sort(int arr[], int len);
+void bubble_normal_sort_test();
 
 //void bubble_strength_sort();
 

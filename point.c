@@ -20,8 +20,10 @@ void point_move() {
 void bubble_normal_sort(int arr[], int len) {
 
     int temp;
-    for (int i = 0; i < len; ++i) {
-        for (int j = 0; j < len - i - 1; ++j) {
+    for (int i = 0; i < len; ++i) {//0-7
+        printf("第%d次循环!\n", i);
+        for (int j = 0; j < len - i - 1; ++j) {//0-6
+            printf("arr[%d]=%d,arr[%d+1]=%d\n", j, arr[j], j, arr[j + 1]);
             if (arr[j] > arr[j + 1]) {
                 temp = arr[j];
                 arr[j] = arr[j + 1];
@@ -30,8 +32,16 @@ void bubble_normal_sort(int arr[], int len) {
         }
     }
 }
-void bubble_normal_sort_test(){
+
+void bubble_normal_sort_test() {
     int arr[8] = {1, 3, 6, 8, 9, 2, 4, 5};
+
+    printf("初始数组: ");
+    for (int k = 0; k < sizeof(arr) / sizeof(*arr); ++k) {
+        printf("%d\t", arr[k]);
+    }
+    printf("\n");
+
     bubble_normal_sort(arr, sizeof(arr) / sizeof(*arr));
     for (int i = 0; i < sizeof(arr) / sizeof(*arr); ++i) {
         printf("%d\t", arr[i]);
