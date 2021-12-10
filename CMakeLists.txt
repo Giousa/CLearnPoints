@@ -3,4 +3,4 @@ project(CLearnPoints C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(CLearnPoints main.c)
+add_executable(CLearnPoints main.c point.h point.c)
