@@ -1,0 +1,3 @@
+/Users/zhangmengmeng/workspace/cproject/CLearnPoints/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/zhangmengmeng/workspace/cproject/CLearnPoints/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/zhangmengmeng/workspace/cproject/CLearnPoints/cmake-build-debug/CMakeFiles/CLearnPoints.dir
